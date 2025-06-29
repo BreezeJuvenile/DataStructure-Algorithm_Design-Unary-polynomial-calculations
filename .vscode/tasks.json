@@ -1,0 +1,31 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe 生成活动文件",
+            "command": "D:/MinGW15.1.0/mingw64/bin/gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "E:/vs_github/classDesign/DataStructure-Algorithm_Design-Unary-polynomial-calculations/main.c",
+                "E:/vs_github/classDesign/DataStructure-Algorithm_Design-Unary-polynomial-calculations/polynomial.c",
+                "E:/vs_github/classDesign/DataStructure-Algorithm_Design-Unary-polynomial-calculations/auxiliary.c",
+                "E:/vs_github/classDesign/DataStructure-Algorithm_Design-Unary-polynomial-calculations/operations.c",
+                "-o",
+                "E:/vs_github/classDesign/DataStructure-Algorithm_Design-Unary-polynomial-calculations/main.exe"
+            ],
+            "options": {
+                "cwd": "D:/MinGW15.1.0/mingw64/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
